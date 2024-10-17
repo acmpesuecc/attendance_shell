@@ -56,5 +56,5 @@ for student in "${students[@]}"; do
 done
 
 echo "Attendance completed!"
-echo "Present students: $(cat $present_file)"
-echo "Absent students: $(cat $absent_file)"
+echo -e "Present students: \n$(cat $present_file)\n"
+echo -e "Absent students: \n$(cat $absent_file)"
