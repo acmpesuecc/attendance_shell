@@ -21,9 +21,9 @@ from gtts import gTTS
 import os
 
 tts = gTTS("$student_name", lang='en', tld='co.in')
-tts.save("./student_audio/$student_name.mp3")
+tts.save("./student_audio/student.mp3")
 END
-	mpg123 ./student_audio/student.mp3 >/dev/null 2>&1
+	mpg123 -q ./student_audio/student.mp3
 }
 
 for student in "${students[@]}"; do
