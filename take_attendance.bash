@@ -57,4 +57,5 @@ done
 
 echo "Attendance completed!"
 echo -e "Present students: \n$(cat $present_file)\n"
+echo "--------------------------"
 echo -e "Absent students: \n$(cat $absent_file)"
