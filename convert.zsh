@@ -5,6 +5,7 @@ echo "Paste the full list of names (one name per line), then press Enter and Ctr
 
 names=$(</dev/stdin)
 
+
 comma_separated=$(echo "$names" | tr '\n' ',' | sed 's/,$/\n/')
 
 output_file="student_names.txt"
