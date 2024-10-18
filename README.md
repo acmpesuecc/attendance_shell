@@ -1,4 +1,9 @@
 # Attendance Taker!
+
+## This Repository Is Archived
+This repository is archived and no longer available to be worked on
+
+
 ### Hi! So im taking a PESU IO course and my throat hurts at the end of the class. I made this bash script `take_attendance.bash`. 
 It basically reads out names for me and for each name, I have 3 options:
 1. (a) for absent -> this marks the student absent
